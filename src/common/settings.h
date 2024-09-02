@@ -17,6 +17,8 @@
 
 namespace Settings {
 
+#undef None
+
 enum class GraphicsAPI {
     Software = 0,
     OpenGL = 1,

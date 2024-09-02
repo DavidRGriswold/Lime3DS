@@ -16,6 +16,8 @@ enum CameraIndex {
     NumCameras = 3,
 };
 
+#undef None
+
 enum class Effect : u8 {
     None = 0,
     Mono = 1,
